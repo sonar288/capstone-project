@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>weather information</title>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="response-area">
+      <p>
+         <%= content %>°C
+      </p>
+    </div>
+    <form id="myForm" method="post">
+      <label for="idInput">City Name:</label>
+      <input type="text" id="idInput" name="cityName">
+
+      <label for="secretInput">unit:</label>
+      <input type="text" id="secretInput" name="unit">
+      <input type="submit" name = "submit">
+    </form>
+  </div>
+</body>
+
+</html>
